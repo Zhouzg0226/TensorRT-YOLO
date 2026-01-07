@@ -26,6 +26,8 @@ English | [简体中文](README.md)
 
 ## <div align="center">🌠 Recent updates</div>
 
+- 2026-01-07: Added support for [YOLO-Master](https://github.com/isLinXu/YOLO-Master), including classification, detection and instance segmentation. 🌟 NEW
+
 - 2025-10-05: Precision perfectly aligned, CUDA flawlessly replicates LetterBox with a pixel error of 0 in the vast majority of cases. The Python module has undergone significant restructuring, greatly enhancing usability. 🌟 NEW
 
 - 2025-06-09: In C++, only a single header file `trtyolo.hpp` is included, with zero third-party dependencies (no need to link CUDA and TensorRT when using the module). Support for data structures with image spacing (Pitch) has been added. For more details, see [Bilibili](https://www.bilibili.com/video/BV1e2N1zjE3L). 🌟 NEW
@@ -39,7 +41,7 @@ English | [简体中文](README.md)
 ## <div align="center">✨ Key Features</div>
 
 ### 🎯 Diverse YOLO Support
-- **Comprehensive Compatibility**: Supports YOLOv3 to YOLO12 series models, as well as PP-YOLOE, PP-YOLOE+, YOLO-World, and YOLOE, meeting diverse needs. See [🖥️ Supported Models List](#support-models) for details.
+- **Comprehensive Compatibility**: Supports YOLOv3 to YOLO12 series models, as well as PP-YOLOE+, YOLO-World and YOLO-Master, meeting diverse needs. See [🖥️ Supported Models List](https://github.com/laugh12321/TensorRT-YOLO/blob/export/README.md#%EF%B8%8F-model-support-list) for details.
 - **Flexible Switching**: Provides simple and easy-to-use interfaces for quick switching between different YOLO versions. 🌟 NEW
 - **Multi-Scenario Applications**: Offers rich example codes covering [Detect](examples/detect/), [Segment](examples/segment/), [Classify](examples/classify/), [Pose](examples/pose/), [OBB](examples/obb/), and more.
 

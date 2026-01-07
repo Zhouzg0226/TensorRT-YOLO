@@ -34,6 +34,8 @@
     ▸ **CUDA Graph 原理与工程实践**  
     ▸ **Triton Inference Server 部署技巧**  
 
+- 2026-01-07: 添加对 [YOLO-Master](https://github.com/isLinXu/YOLO-Master) 的支持，包括分类、检测以及实例分割。🌟 NEW
+
 - 2025-10-05：精度完美对齐，CUDA 完美复刻 LetterBox，绝大多数情况下像素误差为 0。Python 模块重大重构，易用性大幅提升。🌟 NEW
 
 - 2025-06-09: C++仅引单头文件 `trtyolo.hpp`，零第三方依赖（使用模块时无需链接 CUDA 和 TensorRT），增加对带图像间距（Pitch）数据结构的支持，详见 [B站](https://www.bilibili.com/video/BV1e2N1zjE3L)。🌟 NEW
@@ -48,7 +50,7 @@
 ## <div align="center">✨ 主要特性</div>
 
 ### 🎯 多样化的 YOLO 支持
-- **全面兼容**：支持 YOLOv3 至 YOLO12 全系列模型，以及 PP-YOLOE、PP-YOLOE+、YOLO-World 和 YOLOE 等多种变体，满足多样化需求，详见 [🖥️ 模型支持列表](#support-models)。
+- **全面兼容**：支持 YOLOv3 至 YOLO12 全系列模型，以及 PP-YOLOE+、YOLO-World 和 YOLO-Master 等多种变体，满足多样化需求，详见 [🖥️ 模型支持列表](https://github.com/laugh12321/TensorRT-YOLO/blob/export/README.cn.md#%EF%B8%8F-模型支持列表)。
 - **灵活切换**：提供简洁易用的接口，支持不同版本 YOLO 模型的快速切换。🌟 NEW
 - **多场景应用**：提供丰富的示例代码，涵盖[Detect](examples/detect/)、[Segment](examples/segment/)、[Classify](examples/classify/)、[Pose](examples/pose/)、[OBB](examples/obb/)等多种应用场景。
 
